@@ -1,0 +1,10 @@
+[package]
+name = "kru8st-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Seongbin Cho <chobobdev@gmail.com>"]
+
+
+[dependencies]
+kube = { version = "0.87.2", features = ["runtime", "derive"] }
+k8s-openapi = { version = "0.20.0", features = ["latest"] }
